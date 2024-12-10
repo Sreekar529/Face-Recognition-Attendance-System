@@ -121,15 +121,16 @@ This **Attendance Management System** tracks who is present by automatically usi
 
    **To do this**: follow the following steps :
    
-    1.click on manual attendance and enter the details i.e., enrollment number and name
+    1.click on manual attendance and enter the details i.e., subject name 
 
    
    
-    2.next click on enter data and then click on convert to csv
+    2. Then enter your Details such as Enrollment Number and name and then  click on enter data and then click on convert to csv
 
    
 
-   ![Manual Attendance](https://github.com/user-attachments/assets/f5480d78-baad-420a-84a4-bf827c4114b8)
+   ![Manual Attendance](https://github.com/user-attachments/assets/2e10ef6e-d20b-455a-88b9-186c11ffd92a)
+
 
    
 
