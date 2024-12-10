@@ -31,16 +31,136 @@ This **Attendance Management System** tracks who is present by automatically usi
 - **PyCharm**: IDE for development and debugging.
 ---
 
-## How It Works
+## Here's a Complete Guide of How It Works
 
 1. **Enrollment**: Users register their name, ID, and facial images.
 
-2. **Model Training**: Facial data is applied to train the recognition model.
-3. **Attendance Marking**: The system recognizes faces automatically and starts marking attendance on its own.
-4. **Manual Ability**: Users can take attendance manually if required.
----
+   
 
-Here’s a formatted and more presentable version of the provided content:
+   
+   **Run the AMS_Run.py file**: It shows an interface like this. Now enter the enrollmont number and name in the following.
+
+
+
+
+  
+   ![Interface of the FAMS](https://github.com/user-attachments/assets/e733c3e3-7745-44d7-8168-198cc201be83)
+
+
+
+   
+   **Click on Take Images**: It takes several images in grayscale to train the model.
+
+
+
+  
+   ![Taking Images of the Student](https://github.com/user-attachments/assets/5a981da8-7546-4af9-811d-0e28e5385fee)
+
+
+   
+
+
+2. **Model Training**: Facial data is applied to train the recognition model.
+
+   
+
+   **Click on train images**: It will train the model with tthe several pictures that were taken before.
+
+   
+
+   
+   ![Training the model](https://github.com/user-attachments/assets/c6a10f6e-e4e9-4cae-8002-33e831e7fd5b)
+
+   
+
+   
+
+   
+3. **Automatic Attendance Marking**: The system recognizes faces automatically and starts marking attendance on its own.
+
+
+
+   * To give automatic atttendance click on automatic attendance ,then it will open another window
+  
+
+
+   * Enter the sectiion or subject details in the box and click on fill button
+  
+
+
+    ![Attendance Marked](https://github.com/user-attachments/assets/ba0f08cd-4673-4f40-9666-a34be3b4092e)
+
+
+
+   * **Note**:**The attendance is filled** will show after capturing your face
+  
+
+
+
+   * It identifies the face and checks the database for the face base on the image trained.
+  
+
+
+   * Once it identifies , then the attendance is marked 
+   
+
+   ![Taking Attendance based on the Trained Model](https://github.com/user-attachments/assets/2cbb33b9-b61a-4866-85e4-142ae7c7fbb7)
+
+
+
+
+   
+
+
+
+   
+
+4. **Manual Attendance**: Users can take attendance manually if required.
+
+   
+
+   **To do this**: follow the following steps :
+   
+    1.click on manual attendance and enter the details i.e., enrollment number and name
+
+   
+   
+    2.next click on enter data and then click on convert to csv
+
+   
+
+   ![Manual Attendance](https://github.com/user-attachments/assets/f5480d78-baad-420a-84a4-bf827c4114b8)
+
+   
+
+   ![Manual Attendance(1)](https://github.com/user-attachments/assets/2e2001b4-4e8f-496d-954a-27968e28d30a)
+
+
+
+5. **Check the Registered Students** : we can check the students who are registered on the system through their face data
+
+
+   * To check this we have to go to check registered students and click it , it will redirect us to another window
+  
+     
+   * There it will ask for the name and password , enter it accordingly and click login
+  
+     
+     ![Entering username and password for checking registered faces](https://github.com/user-attachments/assets/f71334de-7de5-4e5d-b405-d7f25a2dabe8)
+
+
+   * Then we can see all the students who have registered their faces at what time and exact details
+  
+     ![List Of Registered Faces and their details](https://github.com/user-attachments/assets/f976eade-daab-467b-aea7-ad5649b27b4a)
+
+
+
+   * **Note**: The list of students who have not registered their faces or who gave their attendance manually will not be shown here in the list 
+
+
+
+6. **To check the attendance complete details** : To check complete details, open StudentDetails.csv file from the StudentDetails Folder
+
 
 ---
 
