@@ -168,7 +168,7 @@ This **Attendance Management System** tracks who is present by automatically usi
 
 1. **Clone the Repository**:  
    ```bash
-   git clone https://github.com/yourusername/Attendance-Management-System-using-Face-Recognition.git  
+   git clone https://github.com/Sreekar529/Face-Recognition-Attendance-System.git
    cd Attendance-Management-System-using-Face-Recognition
    ```
 
