@@ -545,8 +545,8 @@ def admin_panel():
         username = un_entr.get()
         password = pw_entr.get()
 
-        if username == 'pragya':
-            if password == 'pragya123':
+        if username == 'sreekar':
+            if password == 'sreekar12':
                 win.destroy()
                 import csv
                 import tkinter
